@@ -1,29 +1,29 @@
 {
   "contracts": {
     "Marketplace": {
-      "address": "0x92e1c2711c0ba9084872b48e89e80a049d9977d3",
-      "constructorCode": "60806040526001805460a060020a60ff021916905534801561002057600080fd5b50612edf806100306000396000f300",
-      "bodyBytecodeHash": "79d26dd88def0f7d06b8847bc43a23d36af1c0b6a8e8adee95a39d6c6210add2",
-      "bytecodeHash": "a005b6515d57f002e112e7fa4b2b2bee2108e0e8da0e75596fa7478337ed91bf"
+      "address": "0x3d2f10c76b115db93a418ed286ca0c5abfdbf5d0",
+      "constructorCode": "60806040526001805460a060020a60ff021916905534801561002057600080fd5b50612f46806100306000396000f300",
+      "bodyBytecodeHash": "1f1dbb841836bd4661cf4d83f977e3262369e9ea3dd5ef4f0ed8403fa129bed7",
+      "bytecodeHash": "1e8dd31231824da1b13efe236218e37c85370d033ab371ed17e7b228c2e261a1"
     }
   },
   "proxies": {
     "Marketplace": [
       {
-        "address": "0xdaa742ab77d6bea62d0cdc0b07ae1d4bad1fab66",
+        "address": "0x5424912699dabaa5f2998750c1c66e73d67ad219",
         "version": "0.1.0",
-        "implementation": "0x92e1c2711c0ba9084872b48e89e80a049d9977d3"
+        "implementation": "0x3d2f10c76b115db93a418ed286ca0c5abfdbf5d0"
       }
     ]
   },
   "app": {
-    "address": "0x04305bb77511e9d59f30725a7bb6d684dd414d76"
+    "address": "0xf01671ef257c95af7a7c9ef141b622158c7dbd7c"
   },
   "version": "0.1.0",
   "package": {
-    "address": "0xa2c35b38d7e6acd117618a5f2a697ef32046c000"
+    "address": "0x7746a3486d16e107b1775039360930178e625075"
   },
   "provider": {
-    "address": "0x5594b8f41d0866db2071046163cc7f26453772b3"
+    "address": "0xacb57aedce38c3fab5b7443580d40c4044865340"
   }
 }
