@@ -15,3 +15,14 @@ npm i
 ```bash
 npm run test
 ```
+
+### Compile contract
+
+```
+npm run compile
+```
+
+### Deploy to Matic testnet
+
+  - Copy `.env.example` to `.env`
+  - Run the cmd: `npm run deploy-matictestnet`
