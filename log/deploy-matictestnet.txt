@@ -1,0 +1,8 @@
+marketplace-contracts$ npm run deploy-matictestnet
+
+> marketplace-contracts@0.0.0-semantic-release deploy-matictestnet
+> npx hardhat run --network matictestnet scripts/deploy.ts
+
+acceptedToken: 0x102bEc4963A8855B85C92A6B6aCE534d757A9147
+owner: 0x342a9269596f0351b5067a32452d6bFBdb435265
+NFT Marketplace: 0xBaa6796BAEC99dEc25e3aa3CE6C43b6145E860b1

@@ -33,7 +33,9 @@
     "lint:fix": "npx solium -d contracts --fix",
     "semantic-release": "semantic-release",
     "commit-msg": "validate-commit-msg",
-    "compile": "npx hardhat compile"
+    "compile": "npx hardhat compile",
+    "deploy-matictestnet": "npx hardhat run --network matictestnet scripts/deploy.ts",
+    "deploy-hardhat": "npx hardhat run --network hardhat scripts/deploy.ts"
   },
   "author": "Decentraland",
   "license": "ISC",
